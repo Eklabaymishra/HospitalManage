@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardiology</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/">
+    <link rel="icon" href="favicon.png">
+
+
+    <style>
+        @media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#" id="name"><img id="logo" alt="Logo" src="logo.png"><b>CATALYST<br>HOSPITAL</b></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html"><button type="button" class="btn btn-primary" href="#"><i class="fa-solid fa-house-user" style="font-size: 23px;"></i></button></a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><button type="button" class="btn btn-primary">Facilities</button></a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a  class="dropdown-item" href="cardio.html"><i class="fa-solid fa-heart-pulse" aria-hidden="true" style="font-size: 30px; color: red"></i> Cardiology</a></li>
+
+
+                  <li><hr class="dropdown-divider"></li>
+                  <!-- <li><a class="dropdown-item" href="neuro.html"><i class="fa-solid fa-person-rays" style="font-size: 30px;color:rgb(255, 0, 217)"></i>  Neuro Surgeon</a></li>
+                  <li><hr class="dropdown-divider"></li> -->
+
+                  <li><a class="dropdown-item" href="eye.html"><i class="fa-solid fa-eye" style="font-size:30px;color:rgb(0, 183, 255)"></i> Eye Specialists</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="brain.html"><i class="fa-solid fa-brain" style="font-size:30px;color:orange"></i> Brain</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="spine.html"><i class="fa-solid fa-child" style="font-size:30px;color:rgb(9, 173, 238)"></i> Spine</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="bones.html"><i class="fa-solid fa-bone" style="font-size:30px;color:orangered;"></i> Bones</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="icu.html"><i class="fa-sharp fa-solid fa-bed-pulse" style="font-size:30px;color:green;"></i> ICU</a></li>
+                </ul>
+              </li>
+
+              
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <button type="button" class="btn btn-primary" href="#">More</button>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#"><i class="fa-solid fa-venus" style="font-size:30px;color:rgb(251, 6, 231)"></i> Yoga PDF (Female)</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#"><i class="fa-solid fa-mars" style="font-size:30px;color:rgb(4, 180, 250)"></i> Yoga PDF (Male)</a></li>
+                 
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#"><i class="fa-solid fa-dumbbell" style="font-size:30px ;color:rgb(251, 6, 231)"></i> GYM PDF (Female)</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#"><i class="fa-solid fa-dumbbell" style="font-size: 30px;color:rgb(4, 180, 250)"></i> GYM PDF (Male)</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#" tabindex="-1" aria-disabled="true"><button type="button" class="btn btn-primary" href="#">Contact Us</button></a>
+              </li>
+              
+              <!-- <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"><button class="">Disabled</button></a>
+              </li> -->
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <h1><b>+ HOSPITAL MANAGEMENT SYSTEM +</b></h1>
+    <marquee>💕...   👩‍⚕️🩺1). Eat lots of fruit and vegetables.  👩‍⚕️🩺2).Eat less salt: no more than 6g a day for adults.  👩‍⚕️🩺3).Do not skip breakfast.  👩‍⚕️🩺4).Avoid harmful use of alcohol.  5).Don't smoke.  👩‍⚕️🩺7).Check your blood pressure regularly.  👩‍⚕️🩺8).Clean your hands properly.  👩‍⚕️🩺9).Drink only safe water.  10).Practice safe sex.  ...💕😍💕
+    </marquee>
+    <hr style="border-top: 3px solid black">
+
+    <h1>Cardiology</h1>
+    <p>What is cardiology?
+        Cardiology is a medical specialty and a branch of internal medicine concerned with disorders of the heart. It deals with the diagnosis and treatment of such conditions as congenital heart defects, coronary artery disease, electrophysiology, heart failure and valvular heart disease. Subspecialties of the cardiology field include cardiac electrophysiology, echocardiography, interventional cardiology and nuclear cardiology.
+        
+        Cardiovascular system
+        
+        The basic functioning of the cardiovascular system includes the way the heart processes oxygen and nutrients in the blood, which is called coronary circulation. The circulation system consists of coronary arteries and coronary veins.
+        
+        There are a range of disorders of the cardiovascular system that are treated and studied under the field of cardiology. Among them are acute coronary syndrome, which encompasses the broad range of myocardial infarction symptoms. Angina pectoris, atherosclerosis, coronary heart disease and restenosis are other common disorders. Broader categories of disorders in the field of cardiology include cardiac arrest; disorders of the myocardium, or the muscle of the heart, which include varieties of cardiomyopathy; disorders of the pericardium, or the outer lining of the heart, which include types of pericarditis; disorders of the heart valves, including the aortic valve, the mitral valve, the pulmonary valve and the tricuspid valve; congenital heart defects, which range from atrial septal defect to ventricular septal defect; diseases of the blood vessels, or vascular diseases, which includes aneurysm, deep vein thrombosis, varicose veins, vasculitis and diseases of other blood vessels.
+        
+        Several devices are used in cardiology, including various types of balloons and defibrillators, a pacemaker, and a stethoscope. Artificial hearts also are used and studied in the field of cardiology.
+        
+        Cardiologists
+        
+        Specialists in cardiology are called cardiologists. Some of the strategies used by cardiologists to combat cardiovascular diseases include coronary artery bypass surgery, percutaneous coronary intervention, percutaneous transluminal angioplasty and stenting. Cardiologists also may diagnose cardiovascular disorders using blood tests, cardiac stress tests, echocardiography or electrocardiography or computed tomography and magnetic resonance imaging techniques.
+        
+        The training required to become a cardiologist involves more than 10 years of studying internal medicine and specialized programs.
+        
+        Becoming a cardiologist requires:
+        
+        4 years of pre-medical study at an accredited college or university;
+        4 years of medical school, earning an MD;
+        3 years in an internal medicine residency program;
+        3 or more years in a fellowship program for advanced training; and
+        Board certification.</p>
+</body>
+</html>
